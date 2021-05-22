@@ -1,5 +1,5 @@
 ## PS
-- 모든 문제는 [블로그](https://velog.io/@sksk713) 에 정리
+- 모든 문제는 [블로그](https://velog.io/@sksk713/series/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4) 에 정리
 
 ### Solve001
 [11047_baek 1914_baek 1449_baek 1080_baek 1174_baek <br> 1105_baek 1092_baek 1946_baek 1263_baek 1068_baek](https://velog.io/@sksk713/1%EC%A3%BC%EC%B0%A8)
