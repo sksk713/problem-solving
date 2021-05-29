@@ -3,14 +3,11 @@ package Solve004;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class boj_16953 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
-    static ArrayList<Integer> twice = new ArrayList<>();
-    static ArrayList<Integer> onePlus = new ArrayList<>();
     static int cnt = 0;
 
     public static void main(String[] args) throws IOException {
