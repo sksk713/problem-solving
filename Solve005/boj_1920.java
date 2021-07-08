@@ -8,6 +8,7 @@ public class boj_1920 {
     static StringTokenizer st;
 
     public static void main(String[] args) throws IOException{
+
         int n = Integer.parseInt(br.readLine());
         int nArr[] = new int[n];
 
@@ -25,7 +26,6 @@ public class boj_1920 {
         for (int i = 0; i < m; i++) {
             mArr[i] = Integer.parseInt(st.nextToken());
         }
-        Arrays.sort(nArr);
 
         for (int i = 0; i < mArr.length; i++) {
             System.out.println(solution(nArr, mArr[i]));

@@ -28,28 +28,15 @@ public class boj_1713 {
                 }
                 // 가장 추천 적은 거 값 뽑기
                 int min = Integer.MAX_VALUE;
-                boolean overlap = false;
+
                 for (int j = 0; j < cnt.length; j++) {
                     if (cnt[j] != 0 && min > cnt[j]) {
                         min = cnt[j];
                     }
-                    else if (min == cnt[j]) {
-                        overlap = true;
-                    }
+
                 }
-                int pivot = min;
-
                 for (int j = 0; j < frame.size(); j++) {
-                    if (!overlap && cnt[frame.get(j)] == min) {
-                        cnt[frame.get(j)] = 0;
-                        frame.remove(j);
-                        frame.add(num[i]);
-                        cnt[num[i]]++;
-
-                        break;
-
-                    }
-                    else if (overlap && cnt[frame.get(j)] == pivot) {
+                    if (cnt[frame.get(j)] == min) {
                         cnt[frame.get(j)] = 0;
                         frame.remove(j);
                         frame.add(num[i]);

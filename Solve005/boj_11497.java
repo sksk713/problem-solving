@@ -1,8 +1,6 @@
 package Solve005;
 
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class boj_11497 {
     static Scanner sc = new Scanner(System.in);

@@ -41,12 +41,11 @@ public class 디스크_컨트롤러 {
 
         // timer가 0부터 돌면서 시작 시간이 timer와 같으면 qu에 넣는다.
         while (true) {
-            for (int i = 0; i < jobs.length; i++) {
-                if (timer == jobs[i][0]) {
-                    qu.offer(new task(jobs[i][1], jobs[i][0]));
+            for (int[] job : jobs) {
+                if (timer == job[0]) {
+                    qu.offer(new task(job[1], job[0]));
                     jobCnt--;
-                }
-                else if (jobCnt == 0)
+                } else if (jobCnt == 0)
                     break;
             }
 

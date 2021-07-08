@@ -1,15 +1,10 @@
 package Solve003;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.io.*;
+import java.util.*;
 
 public class boj_1927 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//    static ArrayList<Integer> arr = new ArrayList<>();
     static PriorityQueue<Integer> arr = new PriorityQueue<>();
 
     public static void main(String[] args) throws IOException {
@@ -18,10 +13,12 @@ public class boj_1927 {
             int x = Integer.parseInt(br.readLine());
             if (x != 0) {
                 arr.add(x);
-            } else {
+            }
+            else {
                 if (arr.isEmpty()) {
                     System.out.println(0);
-                } else {
+                }
+                else {
                     System.out.println(arr.poll());
                 }
             }

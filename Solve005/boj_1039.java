@@ -1,12 +1,15 @@
 package Solve005;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 
 public class boj_1039 {
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static StringTokenizer st;
+    static List<Integer> nextQu = new ArrayList<>();
+    static Queue<Integer> qu = new LinkedList<>();
+
     static int swap(int n, int x, int y) {
 
         StringBuilder nTemp = new StringBuilder(Integer.toString(n));
@@ -32,10 +35,6 @@ public class boj_1039 {
         return false;
     }
 
-    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st;
-    static List<Integer> nextQu = new ArrayList<>();
-    static Queue<Integer> qu = new LinkedList<>();
 
     public static void main(String[] args) throws IOException {
         st = new StringTokenizer(br.readLine(), " ");
@@ -46,7 +45,6 @@ public class boj_1039 {
             System.out.println(-1);
             return;
         }
-
 
         qu.add(Integer.parseInt(n.toString()));
 
