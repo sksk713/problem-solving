@@ -10,6 +10,6 @@
 ### Solve004
 [7662_baek 1753_baek 11053_baek 2407_baek 9465_baek <br> 11725_baek 16953_baek 1991_baek 11660_baek](https://velog.io/@sksk713/Solve004)
 ### Solve005
-[2108_baek H-index_programmers 11497_baek 1920_baek 1039_baek <br> 1713_baek 1062_baek 3055_baek 디스크_컨트롤러_programmers](https://velog.io/@sksk713/Solve005)
+[2108_baek H-index_programmers 11497_baek 1920_baek 1039_baek <br> 1713_baek 1062_baek 3055_baek 디스크_컨트롤러_programmers 17140_baek](https://velog.io/@sksk713/Solve005)
 ### Solve006
-[이중우선순위큐_programmers 1759_baek 3425_baek 소수찾기_programmers 카펫_programmers <br> 15686_baek](https://velog.io/@sksk713/Solve006)
+[이중우선순위큐_programmers 1759_baek 3425_baek 소수찾기_programmers 카펫_programmers <br> 15686_baek 2805_baek 1300_baek 9663_baek 11000_baek](https://velog.io/@sksk713/Solve006)
