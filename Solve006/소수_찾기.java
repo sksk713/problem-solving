@@ -19,6 +19,7 @@ public class 소수_찾기 {
 
         visit = new boolean[numbers.length()];
 
+        // 순열
         for (int i = 1; i < numbers.length() + 1; i++) {
             permutation(numbers, 0, i);
         }
