@@ -29,12 +29,13 @@ public class boj_1759 {
     }
 
     static void dfs(int start, int wordCnt, int n) {
-        StringBuilder sb = new StringBuilder();
 
         int consonant = 0;
         int vowel = 0;
         cnt = 0;
         if (wordCnt == n) {
+            StringBuilder sb = new StringBuilder();
+
             for (int i = 0; i < visited.length; i++) {
                 if (visited[i]) {
                     sb.append(password[i]);
@@ -53,7 +54,6 @@ public class boj_1759 {
                 return;
             }
             System.out.println(sb);
-            return;
         }
         else {
             for (int i = start; i < password.length; i++) {
