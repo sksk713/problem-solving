@@ -3,7 +3,7 @@ package Solve007;
 import java.io.*;
 import java.util.*;
 
-public class boj_10026 {
+public class  boj_10026 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static StringTokenizer st;
     static char[][] arr;

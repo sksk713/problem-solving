@@ -25,7 +25,6 @@ public class boj_1759 {
         Arrays.sort(password);
 
         dfs(0, 0, passLen);
-
     }
 
     static void dfs(int start, int wordCnt, int n) {
