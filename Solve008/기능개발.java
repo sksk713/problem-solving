@@ -3,32 +3,20 @@ package Solve008;
 import java.util.*;
 
 class 기능개발 {
-
-    public static void main(String[] args) {
-        int[] progresses = {96, 94};
-        int[] speeds = {3, 3};
-
-        solution(progresses, speeds);
-    }
-    public static int[] solution(int[] progresses, int[] speeds) {
+    public int[] solution(int[] progresses, int[] speeds) {
         List<Integer> ret = new ArrayList<>();
-        int cnt = 1;
+        List<Integer> answer = new ArrayList<>();
+        int max = 0;
+
         for (int i = 0; i < progresses.length; i++)
             ret.add((int)Math.ceil((double)(100 - progresses[i]) / speeds[i]));
-        List<Integer> answer = new ArrayList<>();
-        for (int i = 0; i < ret.size() - 1; i++)
-        {
-            if (ret.get(i) >= ret.get(i + 1)) {
-                cnt++;
-                if (i == ret.size() - 2)
-                    answer.add(cnt);
+        for (int i = 0; i < ret.size(); i++) {
+            if (ret.get(i) > max) {
+                max = ret.get(i);
+                answer.add(1);
             }
             else {
-                answer.add(cnt);
-                cnt = 1;
-                if (i == ret.size() - 2) {
-                    answer.add(cnt);
-                }
+                answer.set(answer.size() - 1, answer.get(answer.size() - 1) + 1);
             }
         }
         int[] result = new int[answer.size()];
