@@ -17,5 +17,3 @@
 14502_baek 15810_baek 17609_baek 구명보트_programmers 큰수 만들기_programmers <br> 2109_baek 2212_baek 10026_baek 네트워크_programmers
 ### Solve008
 단어변환_programmers 전화번호 목록_programmers 기능개발_programmers 프린터_programmers 11000_baek 거리두기 확인하기_programmers
-### Solve009
-멀쩡한 사각형_programmers
