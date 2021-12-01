@@ -18,4 +18,4 @@
 ### Solve008
 단어변환_programmers 전화번호 목록_programmers 기능개발_programmers 프린터_programmers 11000_baek 거리두기 확인하기_programmers
 ### Solve009
-멀쩡한 사각형_programmers 단체사진 찍기_programmers
+멀쩡한 사각형_programmers 단체사진 찍기_programmers 2800_baek
