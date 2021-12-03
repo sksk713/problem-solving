@@ -16,6 +16,6 @@
 ### Solve007
 14502_baek 15810_baek 17609_baek 구명보트_programmers 큰수 만들기_programmers <br> 2109_baek 2212_baek 10026_baek 네트워크_programmers
 ### Solve008
-단어변환_programmers 전화번호 목록_programmers 기능개발_programmers 프린터_programmers 11000_baek 거리두기 확인하기_programmers
+단어변환_programmers 전화번호 목록_programmers 기능개발_programmers 프린터_programmers 11000_baek <br> 거리두기 확인하기_programmers 타겟 넘버_programmers 1461_baek 더 맵게_programmers
 ### Solve009
-멀쩡한 사각형_programmers 단체사진 찍기_programmers 2800_baek 2493_baek
+멀쩡한 사각형_programmers 단체사진 찍기_programmers 2800_baek 2493_baek 16234_baek
