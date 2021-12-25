@@ -24,16 +24,15 @@ public class 단체사진찍기 {
         if (startCnt == endCnt) {
             if (isOk(n, data))
                 cnt++;
+            return;
         }
-        else {
-            for (int i = 0; i < 8; i++) {
-                if (!visit[i]) {
-                    visit[i] = true;
-                    line.push(fr[i]);
-                    dfs(startCnt + 1, 8, n, data);
-                    visit[i] = false;
-                    line.pop();
-                }
+        for (int i = 0; i < 8; i++) {
+            if (!visit[i]) {
+                visit[i] = true;
+                line.push(fr[i]);
+                dfs(startCnt + 1, 8, n, data);
+                visit[i] = false;
+                line.pop();
             }
         }
     }
