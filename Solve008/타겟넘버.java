@@ -1,5 +1,6 @@
 class Solution {
     static int answer = 0;
+
     public int solution(int[] numbers, int target) {
         int[] operator = new int[numbers.length];
         for (int i = 0; i < numbers.length; i++) {
