@@ -19,3 +19,5 @@
 단어변환_programmers 전화번호 목록_programmers 기능개발_programmers 프린터_programmers 11000_baek <br> 거리두기 확인하기_programmers 타겟 넘버_programmers 1461_baek 더 맵게_programmers
 ### Solve009
 멀쩡한 사각형_programmers 단체사진 찍기_programmers 2800_baek 2493_baek 16234_baek <br> 15486_baek 81301_programmers 21608_baek 13305_baek 13908_baek
+### Solve010
+7490_baek
