@@ -20,4 +20,4 @@
 ### Solve009
 멀쩡한 사각형_programmers 단체사진 찍기_programmers 2800_baek 2493_baek 16234_baek <br> 15486_baek 81301_programmers 21608_baek 13305_baek 13908_baek
 ### Solve010
-7490_baek 9094_baek 5427_baek
+7490_baek 9094_baek 5427_baek 6118_baek 
